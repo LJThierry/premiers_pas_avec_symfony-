@@ -1,0 +1,6 @@
+#home: #Le nom de la route
+ #   path: /
+  #  controller: App\Controller\HomeController::index
+#Apropos:
+ # path: /A-propos
+  #controller: App\Controller\HomeController::apropos

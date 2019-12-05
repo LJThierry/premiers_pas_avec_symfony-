@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+{% block title %}
+    {{ parent() }} | SYMFONY 
+{% endblock %}
+{% block body%}
+<div class="flex-center full-height">
+    <div class="content">
+    <img src="{{asset('/img/ele-civ.jpg')}}" alt="">
+            <h3 class="title">Bienvenue en CÔTE D'IVOIRE !</h3>
+        <p>Ma belle CÔTE D'IVOIRE vous accueille les bras ouverts {{'now' | date('H:i A', 'Africa/Abidjan')}}</p>
+        <hr>
+        <p>&copy; Copyright {{'now' | date('Y')}}</p>
+        <p>Développé par Thierry N'DRI le 05-12-2019</p>
+    </div>
+</div>
+
+{% endblock %}
+

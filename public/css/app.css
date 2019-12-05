@@ -1,0 +1,30 @@
+@import url('https:fonts.googleqpis.com/css?family=Lato');
+html,
+body{
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin-top: 15px;
+
+}
+.full-height{
+    height: 100vh;
+}
+.flex-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+}
+.title{
+    color: orangered;
+    font-size:30px;
+}
+img{
+    width: 300px;
+    height: 300px;;
+}
